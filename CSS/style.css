@@ -1,0 +1,191 @@
+body {
+     text-align:center;
+     margin:0;
+     line-height:2;
+     }
+
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+div {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.top-container {
+     background-color:#E4F9F5;
+     position:relative;
+     margin:0;
+     }
+
+h1  {
+    font-size:4em;
+    font-family:"Parisienne";
+    margin:200px auto 0 auto;
+    color:#66BFBF;
+    font-weight:normal;
+    line-height:1.5;
+    }
+
+.CS-Student  {
+    font-size:2rem;
+    font-family:"Libre Baskerville",cursive;
+    margin-top:0;
+    color:#66BFBF;
+    font-weight:normal;
+    }
+
+
+.bottom-container {
+     background-color:#66BFBF;
+     height:200px;
+     }
+
+.bottom-cloud {
+     position:absolute;
+     height:80px;
+     bottom:400px;
+     left:300px;
+     }
+
+.top-cloud {
+     position:absolute;
+     height:80px;
+     right:300px;
+     top:50px;
+     }
+
+.mountain {
+     height:500px;
+     }
+
+.pnar {
+     position:fixed;
+     }
+
+.logo {
+     height:130px;
+     position:relative;
+     right:650px;
+     top:40px;
+     border-radius:100%;
+     }
+
+.woman, .python-img ,.photography-img{
+     height:150px;
+     }
+
+h3 {
+     font-family:"Libre Baskerville",cursive;
+     }
+
+p {
+    width:30%;
+    margin:0 auto 0 auto;
+    font-family:"Libre Baskerville"
+    }
+
+.profile, .My-skills, .contact-me{
+    padding-top:70px;
+    padding-bottom:70px;
+    }
+
+.horizontal-rule {
+    border-style:none;
+    border-top: dotted 5px;
+    color:grey;
+    width:5%;
+    }
+
+.python-img , .text2 {
+    display:inline-block;
+    position:relative;
+    right:100px;
+    text-align:left;
+    }
+
+.text, .photography-img {
+    display:inline-block;
+    position:relative;
+    left:100px;
+    text-align:left;
+    }
+
+h3 {
+   color:#66BFBF;
+   }
+
+.footer-link {
+    padding:50px;
+    color:black;
+    position:relative;
+    top:50px;
+    text-decoration:none;
+    }
+
+.footer-link:hover {
+    color:white;
+    }
+
+.rights{
+    color:white;
+    position:relative;
+    top:100px;
+    }
+
+.name {
+    color:white;
+    }
+
+.name:hover {
+    color: black;
+    }
+
+.topnav {
+    text-decoration:none;
+    padding-right:20px;
+    padding-left:20px;
+    color:#66BFBF;
+    }
+
+.navbar {
+    position:fixed;
+    top:0;
+    left:0;
+    }
+
+.topnav:hover {
+    color:black;
+    }
+
+
+
+.python-skill , .photography-skill {
+  padding:50px;
+  }
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: white;
+  font-size: 25px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #3498db);
+  background-image: -moz-linear-gradient(top, #66BFBF, #3498db);
+  background-image: -ms-linear-gradient(top, #66BFBF, #3498db);
+  background-image: -o-linear-gradient(top, #66BFBF, #3498db);
+  background-image: linear-gradient(to bottom, #66BFBF, #3498db);
+  text-decoration: none;
+}
